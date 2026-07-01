@@ -85,16 +85,6 @@ Example prompt:
 Use $codex-marketing-taste to give this landing page a stronger concept, sharper art direction, and less samey section design.
 ```
 
-## Why These
-
-These are the skills that felt most like judgment exports rather than generic tooling wrappers:
-
-- `voice-dna` captures a specific approach to editing toward a real voice
-- `coding-guardrails` captures a practical coding discipline
-- `new-project-starter` captures a strong bias toward testing the workflow before building the system
-- `codex-frontend-taste` captures a product-minded frontend taste layer
-- `codex-marketing-taste` captures a more expressive landing-page taste layer
-
 ## Install
 
 Copy the skill folders into your Codex skills directory:
@@ -120,29 +110,3 @@ Each skill folder contains:
 - `SKILL.md`: the main instructions
 - `agents/openai.yaml`: display metadata and default prompt wiring
 - `references/`: optional supporting material for the skill
-
-## Publishing Notes
-
-- `voice-dna` intentionally excludes any personal writing samples from the source machine.
-- Add your own samples to `skills/voice-dna/references/voice-samples.md` if you want stronger voice matching.
-- If this repo is public, keep personal writing, work-specific heuristics, and client material out of `references/`.
-- If you want a stronger personal version of `voice-dna`, keep that in a private companion repo or outside version control.
-
-## Choosing What To Export
-
-If you add more skills later, the best ones to publish are usually the ones that encode judgment:
-
-- decision frameworks
-- review heuristics
-- taste layers
-- writing approaches
-
-The least interesting ones to publish are usually thin wrappers around generic tools unless you've made them meaningfully opinionated.
-
-## Future Improvements
-
-Possible next steps for this repo:
-
-- add before/after examples for `voice-dna`
-- add screenshots or sample outputs for the frontend taste skills
-- split public and private variants where a skill depends on personal or work-specific reference material
