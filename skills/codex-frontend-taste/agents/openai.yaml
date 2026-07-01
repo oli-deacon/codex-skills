@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Frontend Taste"
+  short_description: "Default taste layer for frontend implementation"
+  default_prompt: "Use $codex-frontend-taste to improve this UI while preserving the repo's existing patterns and constraints."
+
+policy:
+  allow_implicit_invocation: true

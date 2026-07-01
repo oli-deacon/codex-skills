@@ -1,0 +1,4 @@
+interface:
+  display_name: "Just because you can, doesn't mean you should"
+  short_description: "Test ROI and workflow risk before building"
+  default_prompt: "Use $new-project-starter to define the goal, success bar, riskiest assumptions, cheapest test, and a short timebox before we build."

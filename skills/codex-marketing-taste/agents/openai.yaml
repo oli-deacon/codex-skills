@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Marketing Taste"
+  short_description: "Sharper art direction for landing pages"
+  default_prompt: "Use $codex-marketing-taste to give this landing page a stronger concept, better pacing, and less generic layout output."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Coding Guardrails"
+  short_description: "Lean, verifiable guidance for everyday coding"
+  default_prompt: "Use $coding-guardrails to keep this coding task scoped, simple, and well verified."
